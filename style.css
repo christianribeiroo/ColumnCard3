@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 15%;
+    letter-spacing: .5px;
+    line-height: 25px;
+
+
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-top: 15%;
+    font-size: 2.5em;
+
+}
+
+.content {
+    display: flex;
+    margin: auto;
+    height: 550px;
+    width: 100%;
+
+    max-width: 900px;
+    max-height: 550px;
+}
+
+.card-1 {
+    background: hsl(31, 77%, 52%);
+    padding: 45px;
+    border-radius: 10px 0 0 10px;
+}
+
+.card-2 {
+    background: hsl(184, 100%, 22%);
+    padding: 45px;
+
+}
+
+.card-3 {
+    background: hsl(179, 100%, 13%);
+    padding: 45px;
+    border-radius: 0px 10px 10px 0;
+}
+
+.laranja button {
+    color: hsl(31, 77%, 52%);
+}
+
+.azul button {
+    color: hsl(184, 100%, 22%);
+}
+
+.verde button {
+    color: hsl(179, 100%, 13%);
+}
+
+
+
+button {
+    position: absolute;
+    top: 68vh;
+
+    background: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+
+    border: none;
+    outline: none;
+
+    font-size: 1em;
+    font-family: 'Lexend Deca', sans-serif;
+
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+
+    transition: .3s;
+}
