@@ -39,11 +39,11 @@ h1 {
 .content {
     display: flex;
     margin: auto;
-    height: 560px;
+    height: 500px;
     width: 100%;
 
     max-width: 900px;
-    max-height: 600px;
+    max-height: 500px;
 }
 
 .card-1 {
@@ -79,7 +79,7 @@ h1 {
 
 
 button {
-    margin-top: 130px;
+    margin-top: 75px;
 
     background: white;
     height: 50px;
